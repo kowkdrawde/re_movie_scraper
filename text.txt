@@ -1,0 +1,3150 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]--><!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]--><!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]--><!--[if IE 9]>    <html class="no-js ie9" lang="en"> <![endif]--><!--[if gt IE 9]><!--><html class="no-js" lang="en">
+<!--<![endif]--><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		
+<link href="/clientapp/hdx/css/uk_hbuk/fsa-pws.css" media="screen" rel="stylesheet">
+<link href="/clientapp/hdx/css/footer.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/newDisclaimer.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/hsbcicons-regular/hsbcicons-regular.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/reusableComponents.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/product_template.css" media="screen" rel="stylesheet">
+<link href="/clientapp/hdx/css/carouselStyle.css" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/VideoDisclaimerDialog.css" rel="stylesheet">
+<link href="/clientapp/hdx/css/new_grid_layout.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/base.css" media="screen" rel="stylesheet" type="text/css">
+<link href="/clientapp/hdx/css/masthead.css" rel="stylesheet">
+<link href="/clientapp/hdx/bijits/country_selector/css/countrySelector.css" rel="stylesheet">
+<link href="/clientapp/hdx/bijits/language_selector/css/languageSelector.css" rel="stylesheet">
+<link href="/clientapp/hdx/css/UtilityBar.css" rel="stylesheet">
+<link href="/clientapp/hdx/css/loader/loader.css" media="screen" rel="stylesheet">
+<link href="/clientapp/hdx/css/Slider.css" rel="stylesheet">
+<link href="/clientapp/hdx/css/paddedcollapsablecontainer.css" rel="stylesheet">
+<link href="/clientapp/hdx/css/MultiSelectTab.css" rel="stylesheet">
+
+<link href="/clientapp/hdx/css/disclaimer_overlay.css" rel="stylesheet">
+
+
+<script src="/clientapp/js/top_section.js"></script>
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+if (top != self){
+	top.location=self.location;
+}
+var defaultLocale = 'en';
+var currLocale = 'en';
+var friendlyLocale = 'en';
+var global_app_var = {
+	countryCode : 'hk',
+	groupMember : 'hbhk',
+	branding : null,
+	locale : 'en'
+};
+var globalConfig = {
+	localVP : 'gsp',
+	cookieDomain : '.hsbc.com.hk',
+	supportedLocaleList : ['en','zh_HK','zh_CN'],
+	searchResultPageUrl : '/personal/search-results.html'
+};
+if (currLocale !== defaultLocale) {
+	globalConfig.searchResultPageUrl = "/" + friendlyLocale + globalConfig.searchResultPageUrl;
+}
+//]]>
+</script><!--[if lt IE 9]>
+<script type="text/javascript" src="/clientapp/hdx/js/hsbc/html5shiv.min.js"></script>
+<![endif]-->
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes, minimum-scale=1">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta http-equiv="Content-Language" content="en">
+<meta name="format-detection" content="telephone=no">
+<script type="text/javascript">
+   HSBC.SITE.custgrp = "RBWM"; 
+   HSBC.SITE.ibtype = "No ibtype"; 
+   HSBC.SITE.cam = "0"; 
+   HSBC.SITE.language = "en";
+</script>
+<style>
+.loaderOverlay {display: none !important;}
+</style>
+<style>
+/*W-IN-STU-WAR (IN-SITU WARNING)*/
+.warning-msg {
+background-color: #FBF8F1;
+border: 1px solid #9F6D0A;
+margin: 0;
+overflow: auto;
+padding: 16px;
+position: relative;
+width: auto;
+}
+
+.warning-msg em {
+color: #9F6D0A;
+float: left;
+font-size: 1.4em;
+left: 10px;
+margin: 0;
+position: absolute;
+top: 12px;
+}
+
+.warning-msg > * {
+margin-left: 20px;
+} 
+
+@media only screen and (max-width: 520px) {
+.warning-msg {
+margin: 0 -12px;
+}
+}
+</style> <title>HSBC Property Valuation Tool | HSBC HK</title>
+<meta name="description" content="Find out the value of a Hong Kong property by typing an address into the HSBC property valuation tool.">
+<link rel="canonical" href="https://www.hsbc.com.hk/personal/mortgages/property-valuation-tool.html">
+<link rel="stylesheet" href="/clientapp/hdx/bijits/tools/propertyvaluation/css/propertyvaluationtool.css" type="text/css">
+<link rel="stylesheet" href="/clientapp/hdx/css/propertyvaluation.css" type="text/css">
+<link rel="stylesheet" href="/clientapp/hdx/bijits/tools/propertyvaluation/css/propertyvaluationtool.css" type="text/css">
+<link href="/clientapp/hdx/css/VideoDisclaimerDialog.css" rel="stylesheet">
+<script type="text/javascript" src="/pws/Components/personal/common/utilities.js"></script>
+<script type="text/javascript">
+HSBC.SITE.busline = "General";
+HSBC.SITE.prodline = "Mortgages";
+HSBC.SITE.site = "Public"; 
+HSBC.PAGE.cg_n =  "Public;No ibtype";
+</script>
+</head>
+<body class="actus base purchasehome" data-page-controller="hsbc/controllers/PWSPageController">
+<div class="utility-bar-container" data-dojo-type="hdx/bijits/masthead/UtilityBarContainer">
+	<div class="container">
+		<div class="row d-pad-l d-pad-r">
+			<div class="l-four columns utility-bar-desktop d-pad-l utilitybar-position" dir="ltr">
+	<div data-dojo-type="hdx/bijits/utilityBarTabs/UtilityBarTabs">
+		<div class="leftheadtext">
+			<ul>
+				<li class="skiplink-position">
+					<a class="skippageLink" href="javascript:void(0);" id="skipPage"><span class="toptextselected">Skip page header and navigation</span></a>
+				</li>
+				<li class="link-li">
+					<a href="/" class="personalLink"><span class="toptextselected"><span>Personal</span><span class="forDevices hideondesktop">Personal Banking</span><span class="accessibleHidden hide">Select to navigate to Personal Banking</span><span class="accessibleHidden">Selected</span><!-- --></span></a>
+					<div class="uparrow link-arrow"> <img src="/clientapp/hdx/images/icons/icon_upward_select_arrow.png" alt="selected"> </div>
+				</li>
+				<li><span class="line"> <!-- --></span></li>
+				<li class="link-li">
+					<a href="http://www.commercial.hsbc.com.hk/1/2/commercial/home" class="businessLink"><span class="toptextselected"><span>Business</span><span class="forDevices hideondesktop">Business Banking</span><span class="accessibleHidden">Select to navigate to Business Banking</span><span class="accessibleHidden hide">Selected</span> <!-- --></span></a>
+					<div class="uparrow_business link-arrow">
+<img src="/clientapp/hdx/images/icons/icon_upward_select_arrow.png" alt="selected"> </div>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+			<div class="l-eight columns utility-bar-desktop d-pad-r">
+				<div class="rightheadtextlinks">
+					<ul>
+						<li>
+							<div class="countrySelector" dir="ltr">
+	<div class="countryMain">
+		<span class="country flag-16 flag-HK">
+			<span class="accessibleHidden">Country Menu</span>
+			<span class="flag-link">Hong Kong</span>
+		</span>
+		<span class="line-selector"><!--  --></span>
+	</div>
+</div>
+						</li>
+						<li role="application" data-dojo-type="hdx/bijits/language_selector/language_selector_desktop/LanguageSelector"><div class="languageSelector">
+<a class="languageMain" href="javascript:void(0);" aria-haspopup="true" data-lang="en"><span class="languageName">English</span><span class="accessibleHidden">Selected</span><span class="icon-chevron-down"></span><span class="line-selector"></span></a><div class="languageMenu"><ul>
+<li class="languageMenuItem"><a class="selectedMenuItem" href="/personal/mortgages/property-valuation-tool.html" lang="en" data-lang="en"><span>English</span><span class="accessibleHidden">Selected</span></a></li>
+<li class="languageMenuItem"><a class="not-selectedMenuItem" href="/zh-hk/personal/mortgages/property-valuation-tool.html" lang="zh-HK" data-lang="zh_HK"><span>繁體</span></a></li>
+<li class="languageMenuItem"><a class="not-selectedMenuItem" href="/zh-cn/personal/mortgages/property-valuation-tool.html" lang="zh-CN" data-lang="zh_CN"><span>简体</span></a></li>
+</ul></div>
+</div></li>
+						<li data-dojo-type="hdx/dijits/site_search/site_search_desktop/SiteSearchDesktop">
+						<li class="last-divider"><span class="line"></span></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div data-dojo-type="hdx/bijits/masthead/NavBarContainer">
+	<div class="navbar fixed_position">
+			<div class="primarynav container clearfix row">
+
+			<div class="m-two s-one columns nopad hideondesktop">
+	<a href="javascript:void(0);" class="menu-button" role="button" aria-haspopup="true" aria-label=""><span class="open accessibletext">Open Menu</span> <span class="close accessibletext">Close Menu</span> <em class="icon-menu" aria-hidden="true"></em><span class="hideonmobile txt-menu" aria-hidden="true">Menu</span></a>
+</div> <div class="l-two m-four columns nopad" dir="ltr">
+	<div class="logo">
+		<a href="/" class="logoclass">
+<img src="/pws/Components/personal/assets/images/hsbc_logo.png" alt="Home"></a>
+	</div>
+</div>
+			<nav class="l-eight columns nopad showondesktop main-nav" tabindex="-1" role="region">
+			<div class="search-container hideondesktop" data-dojo-type="hdx/dijits/site_search/site_search_devices/SiteSearchDevices"></div>
+			<a class="hideondesktop hide" href="javascript:void(0);" aria-hidden="true" role="button" aria-label="Back"> <span class="icon-back-tab icon-left-arrow-tab" aria-hidden="true"></span></a>
+			<ul role="navigation">
+	<li class="heading-li"> 
+		<a class="doormat-parent-a" href="javascript:void(0);" aria-haspopup="true"> <em class="icon-left-tab hideondesktop icon-banking"> <!-- --></em> <span class="mobile-accessibleHidden hide">Banking</span><span class="headtext">Banking</span> <span class="headtextsub">Accounts &amp; Cards</span> <em class="arrow icon-chevron-right hideondesktop"></em></a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="row">
+				<div class="doormat-main-col">
+					<div class="l-four columns">
+						<p class="doormat-head">DEPOSITS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/deposit-accounts.html">Explore Deposits</a></li>
+							<li><a href="/personal/deposit-accounts.html?value=depositSavingsAccount">Savings Accounts</a></li>
+							<li><a href="/personal/deposit-accounts.html?value=depositTimeAccount">Time Deposits</a></li>
+							<li><a href="/personal/deposit-accounts.html?value=depositCurrentAccount">Current Accounts</a></li>
+							<li><a href="/personal/ways-to-bank/e-cheque.html">e-Cheque Services</a></li>
+						</ul>
+						<p class="doormat-head">CREDIT CARDS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/credit-cards.html">Explore Credit Cards</a></li>
+							<li><a href="/personal/credit-cards/hsbc-premier-master-card.html">HSBC Premier MasterCard</a></li>
+							<li><a href="/personal/credit-cards/hsbc-advance-visa-platinum.html">HSBC Advance Visa Platinum Card</a></li>
+							<li><a href="/personal/credit-cards/hsbc-visa-signature.html">HSBC Visa Signature Card</a></li>
+							<li><a href="/personal/credit-cards/hsbc-visa-platinum.html">HSBC Visa Platinum Card</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">RENMINBI SERVICES</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/renminbi-accounts-services.html">Explore Renminbi Service</a></li>
+							<li><a href="/personal/renminbi-accounts-services.html?value=renminbiDeposit">Renminbi Deposits</a></li>
+							<li><a href="/personal/renminbi-accounts-services/renminbi-exchange-services.html">Renminbi Exchange Services</a></li>
+							<li><a href="/personal/renminbi-accounts-services/renminbi-securities-trading.html">Renminbi Securities</a></li>
+							<li><a href="/personal/renminbi-accounts-services/renminbi-bonds-cd-trading.html">Renminbi Bonds</a></li>
+							<li><a href="/personal/renminbi-accounts-services/renminbi-unit-trusts.html">Renminbi Unit Trusts</a></li>
+							<li><a href="/personal/renminbi-accounts-services/renminbi-cpi-deposit.html">Renminbi CPI - Currency Linked</a></li>
+						</ul>
+						<p class="doormat-head">TRANSFERS &amp; PAYMENTS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/ways-to-bank/transfer-and-payments.html">Local &amp; International Transfers</a></li>
+							<li><a href="/personal/ways-to-bank/transfer-and-payments.html?component=htab&amp;value=BillPayments" data-click-module="BillPayments">Bill Payments, autoPay &amp; <br>Standing Instructions</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">HSBC PREMIER</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/hsbc-premier.html">Your Personal Economy</a></li>
+						</ul>
+						<p class="doormat-head">HSBC ADVANCE</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/hsbc-advance/hsbc-advance-account.html">HSBC Advance Overview</a></li>
+						</ul>
+						<p class="doormat-head">Personal Integrated Account</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/personal-integrated-account.html">Explore Personal Integrated <br>Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="l-three columns nopad wcm-column">
+					<div class="highlight graphite-bg">
+						<ul class="doormat-links">
+							<li><a href="/personal/ways-to-bank.html">Ways to Bank</a></li>
+							<li><a href="/personal/ways-to-bank/online-banking.html">Personal Internet Banking</a></li>
+							<li><a href="/personal/ways-to-bank/mobile-banking-app.html">HSBC Mobile Banking</a></li>
+							<li><a href="/personal/ways-to-bank/branch-banking.html">Branch Banking</a></li>
+							<li><a href="/personal/ways-to-bank/express-banking.html">Express Banking</a></li>
+							<li><a href="/personal/ways-to-bank/phone-banking.html">Phone Banking</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/personal/estatement">eStatement and eAdvice</a></li>
+							<li><a href="/personal/contact-us/branch-locator.html">Branch and Express Banking Locator</a></li>
+							<li><a href="/personal/form-centre.html">Form and Document Download</a></li>
+							<li><a href="/personal/fees-and-charges.html">Fees &amp; Charges</a></li>
+							<li><a href="/personal/legal-information.html?component=vtab&amp;value=ImportantNotices" data-click-module="ImportantNotices">Important Notices</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="heading-li">
+		<a class="doormat-parent-a" href="javascript:void(0);" aria-haspopup="true"> <em class="icon-left-tab hideondesktop icon-producs-services"> <!-- --></em> <span class="mobile-accessibleHidden hide">Borrowing</span><span class="headtext">Borrowing</span> <span class="headtextsub">Loans &amp; Mortgages</span> <em class="arrow icon-chevron-right hideondesktop"><!-- --></em> </a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="row">
+				<div class="doormat-main-col">
+					<div class="l-four columns">
+						<p class="doormat-head">CREDIT CARDS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/credit-cards.html">Explore Credit Cards </a></li>
+							<li><a href="/personal/credit-cards/hsbc-premier-master-card.html">HSBC Premier MasterCard</a></li>
+							<li><a href="/personal/credit-cards/hsbc-advance-visa-platinum.html">HSBC Advance Visa Platinum Card</a></li>
+							<li><a href="/personal/credit-cards/hsbc-visa-signature.html">HSBC Visa Signature Card</a></li>
+							<li><a href="/personal/credit-cards/hsbc-visa-platinum.html">HSBC Visa Platinum Card</a></li>
+							<li><a href="/personal/credit-cards/unionpay-dual-currency.html">HSBC UnionPay Dual Currency Credit Card </a></li>
+							<li><a href="/personal/credit-cards/hsbc-gold.html">HSBC Gold Card </a></li>
+							<li><a href="/personal/credit-cards/private-label-cards.html">Private Label Cards </a></li>
+							<li><a href="/personal/credit-cards/mobile-payments.html">HSBC Mobile Payments</a></li>
+							<li><a href="/personal/credit-cards/octopus-automatic.html">Octopus Automatic Add-Value Service</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">CREDIT CARDS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/credit-cards/cash-instalment-plan.html">Cash Instalment Plan</a></li>
+							<li><a href="/personal/credit-cards/interest-free-instalments.html">Interest-free Spending <br>
+							Instalment Plan</a></li>
+						</ul>
+						<p class="doormat-head">OVERDRAFTS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/overdrafts.html">Explore Overdrafts</a></li>
+							<li><a href="/personal/overdrafts/secured-credit.html">Secured Credit</a></li>
+							<li><a href="/personal/overdrafts/premier-clean-credit.html">HSBC Premier Clean Credit</a></li>
+							<li><a href="/personal/overdrafts/advance-clean-credit.html">HSBC Advance Clean Credit</a></li>
+							<li><a href="/personal/overdrafts/pia-clean-credit.html">Personal Integrated Account <br>
+							Clean Credit</a></li>
+							<li><a href="/personal/overdrafts/personal-overdraft.html">Personal Overdraft</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">LOANS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/loans.html">Explore Loans</a></li>
+							<li><a href="/personal/loans/personal-tax-loan.html">Personal Tax Loan</a></li>
+							<li><a href="/personal/loans/personal-instalment-loan.html">Personal Instalment Loan</a></li>
+							<li><a href="/personal/loans/pil-redraw.html">Personal Instalment Loan Redraw</a></li>
+							<li><a href="/personal/loans/revolving-credit-facility.html">Revolving Credit Facility</a></li>
+							<li><a href="/personal/loans/pil-consolidation.html">Balance Consolidation Program</a></li>
+						</ul>
+						<p class="doormat-head">MORTGAGES</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/mortgages.html">Explore Mortgages</a></li>
+							<li><a href="/personal/mortgages/home-mortgage-loans.html">Home Mortgage Loans</a></li>
+							<li><a href="/personal/mortgages/home-related-loans.html">Home-Related Loans</a></li>
+							<li><a href="/personal/mortgages/government-housing-schemes.html">Government Housing Schemes</a></li>
+							
+						</ul>
+					</div>
+				</div>
+				<div class="l-three columns nopad wcm-column">
+					<div class="highlight graphite-bg">
+						<ul class="doormat-links">
+							<li><a href="/personal/latest-offers.html">Latest Offers</a></li>
+							<li><a href="/personal/hsbc-rewards-programme.html">Red Hot Rewards</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/cards/yro">Year-round Offers</a></li>
+							
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/cards/application">Credit Cards Application Form</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/cards/document-upload" target="_blank" onclick="window.open(this.href,'onlinehsbc','width=800,height=600,location=no,directories=no,menubar=no,toolbar=no,scrollbars=yes,status=yes,resizable=yes,left=0,top=0');">Submit Supporting Documents</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/loans/loans-application?WABFormEntryCommand=cmd_init&amp;loan_information.loan_type=Personal%20instalment%20loan">Loans Application</a></li>
+							<li><a href="http://www.personal.hsbc.com.hk/1/2/special/loans/prom044" onclick="window.open(this.href,'_blank','status=yes,location=no,menubar=no,scrollbars=yes,toolbar=no,resizable=yes,width=1024,height=600');return false;">Loan Selection Tool</a></li>
+							<li><a href="/personal/mortgages/home-mortgage-loans/mortgage-tools.html">Mortgage Calculator</a></li>
+							<li><a href="/personal/mortgages/property-valuation-tool.html">Property Valuation Tool</a></li>
+							<li><a href="/personal/mortgages/repayment-plan-options.html">Repayment Plan Options</a></li>
+							<li><a href="/personal/form-centre.html">Form and Document Download</a></li>
+							<li><a href="/personal/fees-and-charges.html">Fees &amp; Charges</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="heading-li">
+		<a class="doormat-parent-a" href="javascript:void(0);" aria-haspopup="true"> <em class="icon-left-tab hideondesktop icon-investment"><!-- --></em> <span class="mobile-accessibleHidden hide">Investing</span><span class="headtext">Investing</span> <span class="headtextsub">Wealth Management</span> <em class="arrow icon-chevron-right hideondesktop"><!-- --></em> </a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="row">
+				<div class="doormat-main-col">
+					<div class="l-four columns">
+						<p class="doormat-head">INVESTMENTS</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments">Explore Investment Services</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/stocks?pwscmd=cmd_init">Stocks</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/ipo?pwscmd=cmd_init">IPO</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/fcy">Foreign Exchange</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/margin-fx">Margin FX</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/sp">Structured Products</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/ut?pwscmd=cmd_init">Unit Trusts</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/bonds?ES_STATE_RESET=ES_STATE_RESET">Bonds / Certificates of Deposit</a></li>
+						</ul>
+						<p class="doormat-head">Market Information </p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/mkt-info?pwscmd=cmd_init">H.K. Market Information</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/us-mkt-info">U.S. Market Information</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">WEALTH MANAGEMENT</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement">Explore Wealth Management</a></li>
+						</ul>
+						<p class="doormat-head">FX COMMENTARIES</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/prom131?WT.ac=AMH_RBWM_PWS_2013_HPI_D_FX_01_X#promo" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Daily FX Focus</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/video/fx" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Weekly FX Commentary Video</a></li>
+						</ul>
+						<p class="doormat-head">WEALTH COMMENTARIES</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/video/warrants" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Daily Warrants Video</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/video" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">HSBC Investment Commentary</a></li>
+							<li><a href="http://www.video.hsbc.com.hk/y/b/securities/mkt_overview/mkt_overview_e.pdf" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">HSBC Investment Daily/Weekly</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/content/hongkongpws/investments/pdf/inv_view_e.pdf" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">HSBC Investment Views</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/horizons" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=800,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Horizons - Your Investment Bulletin</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">HSBC PREMIER</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/hsbc-premier.html">Your Personal Economy</a></li>
+						</ul>
+						<p class="doormat-head">HSBC ADVANCE</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/hsbc-advance/hsbc-advance-account.html">HSBC Advance Overview</a></li>
+						</ul>
+						<p class="doormat-head">Personal Integrated Account</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/personal-integrated-account.html">Explore Personal Integrated Account</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="l-three columns nopad wcm-column">
+					<div class="highlight graphite-bg">
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/investments">Latest Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement/risk" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=1000,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Risk Profiling Questionnaire</a></li>
+							<li><a href="https://www.ebanking.hsbc.com.hk/1/2/logon?LANGTAG=en&amp;COUNTRYTAG=US">Open an Investment Account</a></li>
+							<li><a href="https://www.stock.express.hsbc.com.hk/1/2/sxlogon?LANGTAG=en&amp;COUNTRYTAG=US&amp;WT.ac=amh_pib_sx_e&amp;cmd_menu=">Stock Express Log on</a></li>
+							<li><a href="https://www.ebanking.hsbc.com.hk/1/2/logon?LANGTAG=en&amp;COUNTRYTAG=US" target="_blank">Personal Investment Account Log on </a></li>
+							<li><a href="https://www.ebanking.hsbc.com.hk/1/2/logon?LANGTAG=en&amp;COUNTRYTAG=US">Fund Express Log on</a></li>
+							<li><a href="/personal/form-centre.html">Form and Document Download</a></li>
+							<li><a href="/personal/fees-and-charges.html">Fees &amp; Charges</a></li>
+							<li><a href="/personal/legal-information.html?component=vtab&amp;value=ImportantNotices" data-click-module="ImportantNotices">Important Notices</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="heading-li">
+		<a class="doormat-parent-a" href="javascript:void(0);" aria-haspopup="true"> <em class="icon-left-tab hideondesktop icon-insurance"><!-- --></em> <span class="mobile-accessibleHidden hide">Insurance</span><span class="headtext">Insurance</span> <span class="headtextsub">Protection &amp; MPF</span> <em class="arrow icon-chevron-right hideondesktop"><!-- --></em> </a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="row">
+				<div class="doormat-main-col">
+					<div class="l-four columns">
+						<p class="doormat-head">INSURANCE SERVICES</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance">Explore Insurance Services</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/travel?pwscmd=cmd_init">Travel Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/home?pwscmd=cmd_init">Home Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/health">Health Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/life?pwscmd=cmd_init">Life Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/motor">Motor Insurance </a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/helper?pwscmd=cmd_init">Helper Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/accident?pwscmd=cmd_init">Accident Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/fire?pwscmd=cmd_init">Fire Insurance</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/mortgage?pwscmd=cmd_init">Mortgage Protection</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/fund-performance?pwscmd=cmd_init">Investment Performance</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">MPF/ORSO</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/mpf/home?pwscmd=cmd_init">Explore MPF Services</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/mpf/employee">Employees or Self-Employed</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/mpf/employer">Employers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/mpf/preserved">Personal Accounts</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/mpf/fund">Fund Information</a></li>
+						</ul>
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">WEALTH NEEDS</p>
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement">Explore Your Wealth Needs</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/manage-wealth/">Managing and Growing My Wealth</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/children-education/">Education Savings</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/protect-family">Protecting My Family</a></li>
+
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/retirement">Retirement Planning</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/passing-wealth/">Legacy Planning</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="l-three columns nopad wcm-column">
+					<div class="highlight graphite-bg">
+						<ul class="doormat-links">
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/info">Important Information</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/amend-policy?WABFormEntryCommand=cmd_init">Amend Your Policy</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/claims-assist">Claims and Assistance Services</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/glossary">Glossary</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement/retire?planningParam=ret_plan">Retirement Planning</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement/edu?planningParam=edu_plan">Education Planning</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement/protect?planningParam=pro_plan">Protection Planning</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/wealthmanagement/risk" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=1000,height=600,screenX=0,left=0,screenY=0,top=0'); return false;">Risk Profiling Questionnaire</a></li>
+							<li><a href="/personal/form-centre.html">Form and Document Download</a></li>
+							<li><a href="/personal/fees-and-charges.html">Fees &amp; Charges</a></li>
+							<li><a href="/personal/legal-information.html?component=vtab&amp;value=ImportantNotices" data-click-module="ImportantNotices">Important Notices</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="heading-li">
+		<a class="doormat-parent-a" href="javascript:void(0);" aria-haspopup="true"> <em class="icon-left-tab hideondesktop icon-rewards"><!-- --></em> <span class="mobile-accessibleHidden hide">Offers</span><span class="headtext">Offers</span> <span class="headtextsub">Latest rewards</span> <em class="arrow icon-chevron-right hideondesktop"><!-- --></em> </a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="row">
+				<div class="doormat-main-col">
+					<div class="l-four columns">
+						<p class="doormat-head">CREDIT CARDS</p>
+						<ul class="doormat-links">
+							<!--
+							<li><a href="https://www.redhotoffers.hsbc.com.hk/en/latest-offers/red-hot-shopping-special-wilson/offers/" target="_blank"  onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Red Hot Shopping <br>- Up to HK$480 spending rebate at Wilson Communications
+</a></li>
+		-->				
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/cards/prom185" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Cash Instalment Plan</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/cards/prom217" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Interest-free Spending Instalment</a></li>
+							<li><a href="http://www.personal.hsbc.com.hk/1/2/hk/cards/rewards/e-shop" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">RewardCash e-Shop <br>- up to 60% off</a></li>
+							
+						</ul>
+						
+					</div>
+					<div class="l-four columns">
+						<p class="doormat-head">RED HOT REWARDS</p>
+						<ul class="doormat-links">
+							<li><a href="/personal/rewards-of-your-choice.html">Rewards of Your Choice</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/cards/rewards/e-shop" target="_blank" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">RewardCash eShop</a></li>
+							<li><a href="/personal/rewardcash-certificate-scheme.html">RewardCash certificate scheme</a></li>
+							<li><a href="/personal/rewardcash-redemption.html">Instant RewardCash redemption at merchants</a></li>
+							<li><a href="/personal/hsbc-mileage-programme.html">Mileage programme</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/cards/rewards/donations?pwscmd=donations">Donation</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/cards/rewards/feewaiver?pwscmd=feewaiver">Fee Waiver</a></li>
+							<li><a href="/personal/octopus-rewards-conversion.html">Octopus Rewards Conversion</a></li>
+						</ul>
+			<p class="doormat-head">LOANS</p>
+				<ul class="doormat-links">
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/hk/loans/special/prom001?WT.ac=AMH_RBWM_PWS_DOL_M_PILJUN_01_E" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Personal Instalment Loan</a></li>
+				</ul>	
+						
+					</div>
+				<div class="l-four columns">
+				<p class="doormat-head">WEALTH MANAGEMENT</p>
+				<ul class="doormat-links">
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/prom173c?WT.ac=AMH_RBWM_PWS_DOL_M_WEMACQ_01_E" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Stocks</a></li>
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/prom173b?WT.ac=AMH_RBWM_PWS_DOL_M_WEMACQ_02_E" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Unit Trusts</a></li>
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/prom173d?WT.ac=AMH_RBWM_PWS_DOL_M_WEMFX_01_E" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Foreign Exchange</a></li>
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/special/investments/prom173e?WT.ac=AMH_RBWM_PWS_DOL_M_WEMRMB_01_E" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Renminbi</a></li>
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/insurance?WT.ac=AMH_RBWM_PWS_DOL_M_INS_01_E">Insurance</a></li>
+				</ul>
+				<p class="doormat-head">HSBC PREMIER</p>
+				<ul class="doormat-links">
+					<li><a href="https://www.hsbc.com.hk/personal/hsbc-premier.html" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Benefits and features</a></li>
+				</ul>
+				
+				<p class="doormat-head">HSBC ADVANCE</p>
+				<ul class="doormat-links">
+					<li><a href="https://www.personal.hsbc.com.hk/1/2/hsbcadvance/home" onclick="window.open(this.href, '_blank', 'status=yes,location=no,menubar=no,resizable=yes,scrollbars=yes,toolbar=no,width=635,height=545,screenX=0,left=0,screenY=0,top=0'); return false;">Welcome Rewards</a></li>
+				</ul>
+				
+				
+				</div>
+				</div>
+				<div class="l-three columns nopad wcm-column">
+					<div class="highlight graphite-bg">
+						<ul class="doormat-links">
+						    <li><a href="https://www.personal.hsbc.com.hk/1/2/special/banking/prom172?WT.ac=AMH_RBWM_PWS_DOR_M_DIGITA_01_E">Digital Banking Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/cards?WT.ac=AMH_RBWM_PWS_DOR_M_SCC_01_E">Credit Card Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/loans?WT.ac=AMH_RBWM_PWS_DOR_M_SCA_01_E">Loans Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/mortgages?WT.ac=AMH_RBWM_PWS_DOR_M_SMG_01_E">Mortgage Offers</a></li>
+							<li><a href="https://www.hsbc.com.hk/personal/hsbc-premier.html">HSBC Premier Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/hsbcadvance/home">HSBC Advance Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/investments?WT.ac=AMH_RBWM_PWS_DOR_M_SIV_01_E">Investments Offers</a></li>
+							<li><a href="https://www.personal.hsbc.com.hk/1/2/special/salespage/insurance?WT.ac=AMH_RBWM_PWS_DOR_M_SIS_01_E">Insurance Offers</a></li>
+							<li><a href="/personal/form-centre.html">Form and Document Download</a></li>
+							<li><a href="/personal/fees-and-charges.html">Fees &amp; Charges</a></li>
+							<li><a href="/personal/legal-information.html?component=vtab&amp;value=ImportantNotices" data-click-module="ImportantNotices">Important Notices</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</li>
+	<li class="heading-li hideondesktop" data-dojo-type="hdx/bijits/footer/footerDevices/FooterDevices"> 
+		<a aria-haspopup="true" class="doormat-parent-a" href="javascript:void(0);"> <em class="icon-left-tab hideondesktop icon-information"><!--  --></em> <span class="mobile-accessibleHidden hide">Help and Support</span><span class="headtext">Help and Support</span> <em class="arrow icon-chevron-right hideondesktop"><!--  --></em></a>
+		<div class="doormatmenu" tabindex="-1"></div>
+	</li>
+	<li class="heading-li hideondesktop country-selector-option" role="application">
+	<span class="doormat-parent-a cselect hong-kong-static"> 
+		<span class="icon-left-tab icon-flag-class flag-24 country flag-16 flag-HK"><!--  --></span>
+		<span class="headtext">
+			<span class="mobile-accessibleHidden">COUNTRY</span>
+			<span>Hong Kong</span></span>
+		</span>
+	</li>
+	<li class="heading-li hideondesktop" role="application" data-dojo-type="hdx/bijits/language_selector/language_selector_handheld/LanguageSelector"> 
+		<a aria-haspopup="true" href="javascript:void(0);" class="doormat-parent-a lselect"> <em class="icon-left-tab icon-settings"><!--  --></em> <span class="mobile-accessibleHidden hide"><!--  --></span><span class="headtext"><!--  --></span> <em class="arrow icon-chevron-right hideondesktop"><!--  --></em></a>
+		<div class="doormatmenu" tabindex="-1">
+			<div class="l-four columns full-width">
+				<p class="doormat-head">LANGUAGE</p>
+			</div>
+		</div>
+	</li>
+</ul>
+			<div class="foot hideondesktop">
+				<div class="foot-tab">
+					<a href="javascript:void(0);"> <span class="itemx"></span>
+							 <em class="red-arrow icon-chevron-right"></em></a>
+				</div>
+				<div>
+					<hr class="borderline">
+				</div>
+				<div class="foot-tab">
+					<a href="javascript:void(0);"> <span class="itemx"></span>
+							 <em class="red-arrow icon-chevron-right"></em></a>
+				</div>
+			</div>
+			<span class="accessibleHidden hideondesktop">End of menu</span>
+			</nav>
+			<div class="l-two m-two columns nopad ">
+				<div class="row logon">
+	<div class="l-five columns nopad showondesktop">
+		<a href="https://www.ebanking.hsbc.com.hk/1/2/P2GLandingPage?forReg=Y&amp;LANGTAG=en&amp;COUNTRYTAG=US" target="nb" class="chvicon register RegisterFlag" onclick="window.open(this.href,'nb','width='+screen.width+',height='+screen.height*0.88+',location=no,directories=no,menubar=no,toolbar=no,scrollbars=yes,status=yes,resizable=yes,left=0,top=0'); return (false);">
+			<span class="t14r"> <span>Register</span> <span class="forDevices hideondesktop">Register</span></span><span class="accessibleHidden">Press enter to register for internet banking</span><em class="chv primaryred"></em> 
+		</a>
+
+	</div>
+	<div class="l-seven m-eight columns nopad logondrp" data-dojo-type="hdx/bijits/masthead/logon">
+		<a href="javascript:void(0);" class="primaryaction logonFlag" aria-haspopup="true" aria-expanded="false">
+			<!-- <em class="icon-security-lock"></em> -->
+			<em class="icon-chevron-down"></em>
+			<em class="icon-chevron-up hide"></em>
+			<span class="logon-span">Log
+				on</span> 
+		</a>
+		<div class="l-three m-three s-four columns nopad logondiv hide">
+			<ul>
+				<li class="firstitem"><a href="https://www.ebanking.hsbc.com.hk/1/2/logon?LANGTAG=en&amp;COUNTRYTAG=US" target="onlinehsbc" onclick="window.open(this.href,'onlinehsbc','width='+screen.width+',height='+screen.height*0.88+',location=no,directories=no,menubar=no,toolbar=no,scrollbars=yes,status=yes,resizable=yes,left=0,top=0'); return (false);">Personal Internet Banking <span class="accessibleHidden">Opens in a new window</span><em class="icon-chevron-right"></em></a></li>
+				<li><a href="https://www.stock.express.hsbc.com.hk/1/2/sxlogon?LANGTAG=en&amp;COUNTRYTAG=US">Stock Express<em class="icon-chevron-right"></em></a></li>
+				<li><a href="https://www.commercial.hsbc.com.hk/1/2/b2g/misc/killSession?__cmdKillSession=R2G_Header&amp;redirectPageKey=inputusernamepage_en_US">Business Internet Banking<em class="icon-chevron-right"></em></a></li>
+				<li class="lastitem"><a href="https://www.hsbcnet.com/">HSBC<em>net</em><em class="icon-chevron-right"></em></a></li>
+			</ul>
+		</div>
+	</div>
+</div>
+			</div>
+		</div>
+	</div>
+	<div class="navbarshadow"></div>
+</div>
+<div class="hiddenWidgetsDiv">
+	<!-- widgets in this container are hidden in the UI by default -->
+	<div class="component-container ibmDndRow wpthemeCol12of12 hiddenWidgetsContainer wpthemeFull id-Z7_P2DC1I80K0R080A22P91H626N0" name="ibmHiddenWidgets"></div>
+<div style="clear:both"></div>
+</div>
+
+<div class="wrapper-shift-class">
+	<div class="main-wrapper-cover">
+		<span class="hide">!</span>
+	</div>
+	<div class="wptheme1Col">
+		<div class="component-container wpthemeCol wpthemeCol12of12 ibmDndColumn wpthemeFull id-Z7_P2DC1I80KOJ080A2QFK0A90AV7" name="_BACKGROUND_IMAGE_FW_COL"><div class="component-control id-Z7_P2DC1I80K0DA50A2M436AJ1N46">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			
+<div class="bgimg class_tmpl_bg" style="background-image: url('/pws/Components/personal/assets/images/background.jpg');"></div>
+
+
+
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+	<div class="mainwrapper">
+	<a href="javascript:void(0);" class="focus-content" data-focus-attribute="true"><span>Top of main content</span></a>
+		<div class="wptheme1Col">
+			<div class="component-container wpthemeCol wpthemeCol12of12 ibmDndColumn wpthemeFull id-Z7_P2DC1I80KOJ080A2QFK0A90Q00" name="_CAROUSEL_FW_COL"><div class="component-control id-Z7_P2DC1I80K0DA50A2M436AJ1N45">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div data-dojo-type="hdx/dijits/IntroductionBanner" dir="ltr">
+	<div class="row featuredwrapper">
+		<div class="l-six m-four s-four columns">
+			<div class="featured">
+				<h1 class="t38l">
+					Property valuation tool</h1>
+				<p class="t22l">
+					Just type an address into our property valuation tool to find out the value of a Hong Kong apartment.</p>
+				<div class="row nopad">
+					<div class="l-twelve m-eight s-four columns nopad">
+						<a href="/personal/mortgages.html" class="chvicon"><span>Mortgage overview</span><em class="chv primaryred"><!-- --></em></a>
+						<hr class="hideondesktop">
+						<a href="/personal/mortgages/home-mortgage-loans/mortgage-tools.html" class="chvicon"><span>Mortgage calculators</span><em class="chv primaryred"><!-- --></em></a>
+</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+		<div class="contentwrapper">
+			<div class="grid-main">
+				<div data-dojo-type="hdx/bijits/global_framework/global_container/GlobalContainerNewApproach">
+					<div class="full-width wptheme1Col wpthemeTopCol">
+						<div class="component-container wpthemeCol wpthemeCol12of12 ibmDndColumn wpthemeHeadlineContainer wpthemeFull id-Z7_P2DC1I80KOJ080A2QFK0A90Q04" name="_ROW1_FW_COL">
+<div class="component-control id-Z7_P2DC1I80K0DA50A2M436AJ1N47">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="gc_modules full-width row" custom_id="id_contentwrapper" dir="ltr">
+	<div class="content l-twelve m-eight s-four columns">
+		<div class="od-browse" data-dojo-type="hdx/dijits/reusableComponents/browseSectionNew">
+			<div class="header-browse">
+				<div class="browse-menu-od margin-reset" data-bs-attr="browseDiv">
+					<a aria-haspopup="true" class="od-menu" data-bs-attr="browseTitleSection" href="javascript:void(0);"><em class="icon-menu"><!-- --></em> <span class="od-browse-txt">Browse section</span> <span class="menu-title">Menu</span></a>
+</div>
+			</div>
+			<div class="header-desktop">
+				<h2 class="od-head margin-reset">
+					<span>PROPERTY VALUATION TOOL</span> <span class="icon-browse-down mobile-only" data-bs-attr="browseDivMobile"><!-- --></span>
+</h2>
+			</div>
+			<!-- Start Dropdown Content -->
+			<div class="l-four m-four s-four columns">
+				<div class="content">
+					<div class="res-browse-slide-menu" data-bs-attr="browseOptions">
+						<div class="browse-section-popup-content"></div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages.html"><span class="massaccount-link-span">Explore Mortgages</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-mortgage-loans.html"><span class="massaccount-link-span">Home mortgage loans</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-mortgage-loans/deposit-linked-mortgage.html"><span class="massaccount-link-span">Deposit Linked Mortgages</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-mortgage-loans/hibor-based-mortgage.html"><span class="massaccount-link-span">HIBOR-Based Mortgage Plan</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-mortgage-loans/high-advance-mortgage.html"><span class="massaccount-link-span">HighAdvance Mortgage</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-mortgage-loans/investor-mortgage.html"><span class="massaccount-link-span">Investor Mortgage</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/government-housing-schemes.html"><span class="massaccount-link-span">Government housing schemes</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/government-housing-schemes/home-ownership.html"><span class="massaccount-link-span">Home Ownership Scheme</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/government-housing-schemes/tenant-purchase.html"><span class="massaccount-link-span">Tenant Purchase Scheme</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/home-related-loans.html"><span class="massaccount-link-span">Home-related loans</span></a>
+</div>
+						</div>
+						<div aria-level="2" class="res-browse-child-section margin-reset" role="sub-heading">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+								<a href="/personal/mortgages/repayment-plan-options.html"><span class="massaccount-link-span">Repayment plan options</span></a>
+</div>
+						</div>
+						<div aria-level="2" role="sub-heading" class="res-browse-child-section margin-reset">
+							<div class="res-browse-link-section browseOptionsId margin-reset">
+                                <a href="/personal/mortgages/home-mortgage-loans/mortgage-tools.html"><span class="massaccount-link-span">Mortgage calculators</span></a>
+                            </div>
+</div>
+<div aria-level="2" role="sub-heading" class="res-browse-child-section margin-reset">
+							<div class="res-browse-link-section-last-child browseOptionsId margin-reset">
+                                <a href="/personal/mortgages/property-valuation-tool.html"><span class="massaccount-link-span">Property Valuation Tool</span></a>
+                            </div>
+							</div>
+					</div>
+				</div>
+			</div>
+			<!-- End Dropdown Content -->
+</div>
+	</div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+<div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK28F7">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div>
+	<h2 class="t26b">Find out the value of a flat in Hong Kong</h2>
+	<p class="t16r">Or use this tool to find the address.</p>
+</div>
+<div class="gc_modules">
+    <div class="content">
+        <div id="toolTab" data-dojo-type="hdx/dijits/Tabs">
+            <ul class="htabs pearl-bg" role="tablist">
+                <li class="selected">
+                    <a data-aria-attributes='"aria-controls":"tabpanel1","role":"tab","tabindex":"-1"' id="tab1" href="javascript:void(0);" class="tab" data-tab="tab1" aria-selected="true" aria-controls="tabpanel1" role="tab" tabindex="0">Property valuation Search</a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);" id="tab2" class="tab" data-tab="tab2" data-aria-attributes='"aria-controls":"tabpanel2","role":"tab","tabindex":"-1"' aria-controls="tabpanel2" role="tab" tabindex="-1">Search by Estate keyword </a>
+                </li>
+                <li class="righttab">
+                    <a role="tab" aria-label="DropDown" data-tab="dropDownTab" aria-controls="dropDownTabPanel" id="dropDownTab" href="javascript:void(0);" tabindex="-1">
+                        <span class="chv-down dropdownChevron"></span> </a>
+</li>
+            </ul>
+        </div>
+
+        <!-- Drop down panel -->
+        <div id="dropDownTabPanel" data-tabpanel="dropDownTabPanel" class="moretabs" role="tabpanel">
+            <div class="row">
+                <ul class="columns nopad">
+
+                </ul>
+            </div>
+        </div>
+
+        <!-- Tab 1  -->
+        <div id="tabpanel1" role="tabpanel" aria-labelledby="tab1" tabindex="0" data-tabpanel="tabpanel1" class="row row_v_padding">
+            <!-- Start: Tool-67 Property Valuation Tool (Property Valuation Search) -->
+            <div data-dojo-type="hdx/bijits/tools/propertyvaluation/propertyvaluationtool" data-ext-props="{endPoints:{'preparePropertyValuationEndPoint': 'mortgage.preparePropertyValuation', 'enquirePropertyValuationEndPoint': 'mortgage.enquirePropertyValuation' }}"></div>
+            <!-- End: Tool-67 Property Valuation Tool (Property Valuation Search) -->
+        </div>
+        <!-- Tab 2  -->
+        <div id="tabpanel2" data-tabpanel="tabpanel2" role="tabpanel" tabindex="0" aria-labelledby="tab2" class="row row_v_padding">
+            <!-- Start: Tool-67 Property Valuation Tool (Search by Estate Keyword) -->
+            <div data-dojo-type="hdx/bijits/tools/propertyvaluation/propertyvaluationsearch" data-ext-props="{endPoints:{'preparePropertyValuationEndPoint': 'mortgage.preparePropertyValuation', 'enquirePropertyAddressEndPoint': 'mortgage.enquirePropertyAddress' }}"></div>
+            <!-- End: Tool-67 Property Valuation Tool (Search by Estate Keyword) -->
+        </div>
+    </div>
+	
+</div>
+<div class="gc_modules row">
+    <div class="content l-twelve m-eight s-four columns">
+
+
+        <!-- <div class="mortgap showontablet"></div> -->                        <!-- <hr class="hideonmobile hr40"/> -->
+
+
+            <div class="row">
+                <div class="l-nine m-five s-four columns">
+                    <p class="ptext">
+                        <span class="t16b">How much can I borrow?</span>
+                        <span class="pgrey t16r">Use the mortgage calculator to discover how much you can afford with your income.</span>
+
+                </p>
+</div>
+                <div class="m-three s-four columns">
+					<a href="/personal/mortgages/home-mortgage-loans/mortgage-tools.html" class="secondaryaction btn">Mortgage Calculator</a>
+				</div>
+
+            </div>
+
+
+        <hr class="hr40 thick hideonmobile">
+    </div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+<div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK28V1">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="gc_module_title_text hideonmobile">
+    <div class="title_flag l-twelve m-eight s-four columns">
+        <h3 class="t14b cst">
+            <span class="line"></span>
+            <!-- Please do not remove the from the code data-section- . Required for mobile section navigation  -->
+            <span class="text" data-section->Related Products and Services</span>
+        </h3>
+    </div>
+</div>
+
+<div class="row row_v_padding full-width showonmobile" data-mobile-header-target-module="module1">
+    <a href="javascript:void(0);" class="mtitle t18r pearl-bg title_text">RELATED PRODUCTS AND SERVICES
+        <span class="accessibleHidden expandedSpan hide">Expanded</span>
+        <span class="accessibleHidden collapsedSpan">Collapsed</span>
+        <em class="icon-chevron-down icon-2x"></em> <em class="icon-chevron-up icon-2x hide"></em> </a>
+</div>
+<div data-dojo-type="hdx/bijits/global_framework/global_container/GlobalContainerNewApproach">
+	<div class="gc_modules col4layout" data-mobile-module="module1">
+		<div class="column1">
+			<div class="mortgapmort showonmobile"></div>
+			<div class="content modulebox">
+				<!-- Module header  -->
+				<div class="mod_content_wrap tile3">
+					<h4 class="t22l"><a href="/personal/mortgages/home-related-loans.html"><span>Home related loans</span><em class="chv primaryred"></em></a></h4>
+
+					<div class="mod_content">
+						<p>Manage your cash flow more easily with loans to cover a variety of expenses.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column2">
+			<div class="content modulebox">
+				<!-- Module header  -->
+				<div class="mod_content_wrap tile3">
+					<h4 class="t22l"><a href="/personal/mortgages/repayment-plan-options.html"><span>Repayment plan options</span><em class="chv primaryred"></em></a></h4>
+
+					<div class="mod_content">
+						<p>Own your home sooner and save on interest or repay less in the earlier years.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column3">
+			<div class="content modulebox">
+				<!-- Module header  -->
+				<div class="mod_content_wrap tile3">
+					<h4 class="t22l"><a href="https://www.personal.hsbc.com.hk/1/2/hk/investments/mkt-info/blr"><span>Rate Information</span><em class="chv primaryred"></em></a></h4>
+
+					<div class="mod_content">
+						<p>Our mortgages on our Best Lending Rate (BLR).</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="column4">
+			<div class="content modulebox">
+				<!-- Module header  -->
+				<div class="mod_content_wrap tile3">
+					<h4 class="t22l">Home Related Insurance</h4>
+
+					<div class="mod_content">
+						<p>Protect your new home with policies that cover your home's structure against hazard, your belongings and more.</p>
+					</div>
+				</div>
+				<div class="mod_footer silver-bg">
+					<ul class="moddivlinetop">
+						<li>
+							<a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/fire?pwscmd=cmd_init" class="t14r chvicon black"><span>Fire insurance</span><em class="chv primaryred"></em></a>
+<div class="listdivider"></div>
+						</li>
+						<li class="moddivline">
+							<a href="https://www.personal.hsbc.com.hk/1/2/hk/insurance/home?pwscmd=cmd_init" class="t14r chvicon black"><span>Home insurance</span><em class="chv primaryred"></em></a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+<div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK2OQ2">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="gc_module_title_text full-width">
+
+    <div class="l-twelve m-eight s-four columns">
+        <h3 class="t14b cst hideonmobile">
+            <span class="line"></span> <span class="text">HELP AND
+										SUPPORT</span>
+        </h3>
+
+        <div class="showonmobile" data-mobile-header-target-module="module2">
+            <a href="javascript:void(0);" class="mtitle t18r pearl-bg title_text">HELP AND SUPPORT
+                <span class="accessibleHidden expandedSpan hide">Expanded</span>
+                <span class="accessibleHidden collapsedSpan">Collapsed</span>
+                <em class="icon-chevron-down icon-2x"></em>
+                <em class="icon-chevron-up icon-2x hide"></em> </a>
+        </div>
+
+    </div>
+</div>
+
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div>
+</div>
+</div>
+					<div class="gc_modules wptheme3Col">
+						<div class="column1">
+							<div class="component-container wpthemeCol wpthemeLeft wpthemeNarrow wpthemeCol4of12 ibmDndColumn wpthemeTertiaryContainer id-Z7_P2DC1I80KOJ080A2QFK0A90Q02" name="_ROW2_OT_COL1"><div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK2OQ1">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="content" data-mobile-module="module2">
+<div class="mortgapmort showonmobile"></div>
+<h4 class="t22l">Contact us</h4>
+
+
+<div class="row iconlist">
+                <div class="l-twelve m-eight s-four columns nopad">
+                    <div class="item">
+                        <em class="big pewter icon-multiple-users"></em>
+                        <h5>Arrange to see one of our mortgage specialists</h5>
+
+                        <p>
+                            <a href="#" onclick="dijit.byId('makeAppointDialog').show(); return false;" class="chvicon"><span>Request an appointment</span><em class="base-icon-expand"></em></a>
+                        </p>
+                    </div>
+                </div>
+                <div class="l-twelve m-eight s-four columns nopad">
+                    <div class="item">
+                        <em class="big pewter icon-phone"></em>
+                        <h5>By phone</h5>
+
+                        <p>
+                           Call <a href="tel:+85227488080" class="devicenumber">(852) 2748 8080</a><span class="desktopnumber">(852) 2748 8080</span> </p>
+                    </div>
+                </div>
+                <div class="l-twelve m-eight s-four columns nopad">
+                    <div class="item last">
+                        <em class="big pewter icon-location"></em>
+                        <h5>At an HSBC branch</h5>
+						<p>
+                            <a href="/personal/contact-us/branch-locator.html" class="chvicon"><span>Find your nearest branch</span><em class="chv primaryred"></em></a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+						<div class="column1">
+							<div class="component-container wpthemeCol wpthemeLeft wpthemeNarrow wpthemeCol4of12 ibmDndColumn wpthemePrimaryContainer id-Z7_P2DC1I80KOJ080A2QFK0A90Q06" name="_ROW2_OT_COL2"><div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK2OQ3">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="content" data-mobile-module="module2">
+<hr class="showonmobile">
+	<h4 class="t22l">Important information</h4>
+
+	<div class="mod_content">
+		<p class="singleicon clearfix">
+			<em class="icon-compose"></em>
+			<a href="/personal/fees-and-charges.html?component=vtab&amp;value=Banking" class="chvicon"> <span>Fees &amp; Charges </span><em class="chv primaryred"></em> </a>
+		</p>
+
+		<p class="singleicon clearfix">
+			<em class="icon-compose"></em>
+			<a href="/personal/form-centre.html?component=vtab&amp;value=Applicationandservicingforms" class="chvicon"> <span>Forms and Documents</span><em class="chv primaryred"></em> </a>
+		</p>
+
+		<p class="singleicon clearfix">
+			<em class="icon-compose"></em>
+			<a href="/personal/legal-information.html?component=vtab&amp;value=Termsofuse" class="chvicon"> <span>Terms &amp; Conditions </span><em class="chv primaryred"></em>
+			</a>
+		</p>
+<div class="appoint">
+				<div class="wrapper-shift-class">
+					<div class="mainwrapper">
+						<article class="pop-up-form appoint" data-dojo-type="hdx/dijits/reusableComponents/ModalOverlay" id="makeAppointDialog" data-ext-props="{closeIconId: 'makeAppointDialogCloseIcon'}">
+							<div class="apphead row">
+								<div class="l-eleven m-seven s-three nopad columns">
+									<p class="appoint-heading t16b">REQUEST AN APPOINTMENT</p>
+								</div>
+								<div class="l-one m-one s-one nopad columns">
+									<div class="modal-close-button">
+										<a id="makeAppointDialogCloseIcon" href="#">
+											<span class="icon-delete modal-close-border icon-2x"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+							<div data-dojo-type="hsbc/eca!pws/Components/client/eForm/make_appointment/Form" data-ext-props="{ endPoints:{'retrieveFormDataEndPoint': 'form.retrieveFormData', 'submitFormEndPoint':'form.submitForm'}, dialogId: 'makeAppointDialog' }">
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+	</div>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+						<div class="column1">
+							<div class="component-container wpthemeCol wpthemeLeft wpthemeNarrow wpthemeCol4of12 ibmDndColumn wpthemeSecondaryContainer id-Z7_P2DC1I80KOJ080A2QFK0A90Q01" name="_ROW2_OT_COL3"><div class="component-control id-Z7_P2DC1I80KO72F0A2JMQEIK2O60">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div class="content" data-mobile-module="module2">
+<hr class="showonmobile">
+            
+            <h4 class="t22l"> <a href="/personal/faqs.html?component=faq_select&amp;value=Mortgages" class="chvicon"> <span>Frequently asked questions</span> <em class="chv primaryred"><!-- icon --></em> </a> </h4>
+            <ul class="faqlist">
+                <li>
+					<a href="#" onclick="dijit.byId('hdx_dijits_CollapsableContainer_401').show(); return false;" class="t14b"><span>What documents do I need to apply for a mortgage?</span></a>
+                </li>
+                <li>
+					
+					<a href="#" onclick="dijit.byId('hdx_dijits_CollapsableContainer_402').show(); return false;" class="t14b"><span>Is there any charge for a mortgage application?</span></a>
+                    
+                </li>
+                <li>
+					<a href="#" onclick="dijit.byId('hdx_dijits_CollapsableContainer_403').show(); return false;" class="t14b"><span>How much can I borrow?</span></a>
+                  
+                </li>
+				<li>
+                    <a href="#" onclick="dijit.byId('hdx_dijits_CollapsableContainer_405').show(); return false;" class="t14b"><span>Do I need to arrange fire insurance for the mortgaged property?</span></a>
+					
+                </li>
+				<li>
+					<a href="#" onclick="dijit.byId('hdx_dijits_CollapsableContainer_407').show(); return false;" class="t14b"><span>What are the options for repaying my mortgage?</span></a>
+                   
+                </li>
+            </ul>
+        </div>
+		
+		
+<div class="od-overlay-cta applyonline" data-dojo-type="hdx/dijits/Dialog" role="dialog" aria-labelledby="titleDialog" data-dojo-props="hasFooter : true" id="hdx_dijits_CollapsableContainer_401" data-dojo-attach-point="dialog">
+			<div class="closeButton od-close">
+				<a href="javascript:void(0);" role="button" data-dojo-attach-point="closeDialogButton">
+					<span aria-hidden="true" class="icon-delete od-close-border"></span>
+					<span class="mobile-accessibleHidden">Close</span>
+				</a>
+			</div>
+			<h2 id="titleDialog" class="od-cta-heading">FAQs</h2>
+
+			<div class="od-overlay-cta-content" data-overlay-content-container="val">
+				<div data-overlay-content="val" tabindex="0" aria-label="FAQ Overlay Content" data-dojo-attach-point="content">
+					
+					<p class="title t14b">What documents do I need to provide when I apply for a mortgage?</p>
+                    
+                          <p class="t14r"> You will normally need to provide the following documents when you submit your mortgage application. <br>
+                            <br>
+                            For application under individual name(s)<br>
+                          
+                          </p>
+<ul class="bulletlist">
+                            <li> Hong Kong ID Cards or passports of all borrowers (and guarantors, if any)</li>
+                            <li> For a newly purchased property:</li>
+							<ul class="bulletlist">
+								<li>Provisional or Formal Sale &amp; Purchase Agreement</li>
+							</ul>
+                            <li> For refinancing an existing mortgage against a property you already own:</li>
+							<ul class="bulletlist">
+								<li>repayment records from your existing mortgage lender showing the last three months' payments, AND;</li>
+								<li>the repayment schedule for your existing mortgage, AND</li>
+								<li>address proof for self-occupancy, if applicable</li>
+							</ul>
+                            <li> Bank statements showing your salary deposits for the last three months</li>
+                            <li> Proof of your employment, which could be:</li>
+							<ul class="bulletlist">
+								<li>your latest tax demand note, OR;</li>
+								<li>your latest employer's tax return note, OR;</li>
+								<li>other income proof documents issued by your employer.</li>
+							</ul>
+                          </ul>
+                          <br>
+                          For an application under the name of a shell company<br>
+                          <ul class="bulletlist">
+                            <li> Hong Kong ID Cards or passports of all guarantors</li>
+                            <li> For a newly purchased property:</li>
+							<ul class="bulletlist">
+								<li>Provisional or Formal Sale &amp; Purchase Agreement</li>
+							</ul>
+                            <li> For refinancing an existing mortgage against a property you already own:</li>
+							<ul class="bulletlist">
+								<li>repayment records from your existing mortgage lender showing the last three months' payments,  AND;</li>
+								<li>the repayment schedule for your existing mortgage, AND</li>
+								<li>address proof for self-occupancy, if applicable</li>
+							</ul>
+                            <li> Bank statements showing each guarantor's salary deposits for the last three months</li>
+                            <li> Proof of each guarantor's employment, which could be:</li>
+							<ul class="bulletlist">
+								<li>the latest tax demand note, OR;</li>
+								<li>the latest employer's tax return note, OR;</li>
+								<li>other income proof documents issued by the guarantor's employer.</li>
+							</ul>
+                            <li> Business Registration Certificate or Certificate of Incorporation of the shell company</li>
+                            <li>Minutes of meeting approving the mortgage application and indicating mortgagee bank, property address and loan amount</li>
+                          </ul>
+                          
+
+					<!-- disclaimer wrapper start -->
+					
+					<!-- disclaimer wrapper end -->
+				</div>
+			</div>
+		</div>
+
+
+<div class="od-overlay-cta applyonline" data-dojo-type="hdx/dijits/Dialog" role="dialog" aria-labelledby="titleDialog" data-dojo-props="hasFooter : true" id="hdx_dijits_CollapsableContainer_402" data-dojo-attach-point="dialog">
+			<div class="closeButton od-close">
+				<a href="javascript:void(0);" role="button" data-dojo-attach-point="closeDialogButton">
+					<span aria-hidden="true" class="icon-delete od-close-border"></span>
+					<span class="mobile-accessibleHidden">Close</span>
+				</a>
+			</div>
+			<h2 id="titleDialog" class="od-cta-heading">FAQs</h2>
+
+			<div class="od-overlay-cta-content" data-overlay-content-container="val">
+				<div data-overlay-content="val" tabindex="0" aria-label="FAQ Overlay Content" data-dojo-attach-point="content">
+					
+					<p class="title t14b">Is there any charge for a mortgage application?</p>
+                    
+                  
+                  
+                          <p class="t14r">There is an application fee of 0.15% of the loan amount, which is paid when you accept our offer of a loan. This fee will be refunded to your mortgage loan repayment account after you draw down the loan.</p>
+
+					<!-- disclaimer wrapper start -->
+					
+					<!-- disclaimer wrapper end -->
+				</div>
+			</div>
+		</div>
+
+<div class="od-overlay-cta applyonline" data-dojo-type="hdx/dijits/Dialog" role="dialog" aria-labelledby="titleDialog" data-dojo-props="hasFooter : true" id="hdx_dijits_CollapsableContainer_403" data-dojo-attach-point="dialog">
+			<div class="closeButton od-close">
+				<a href="javascript:void(0);" role="button" data-dojo-attach-point="closeDialogButton">
+					<span aria-hidden="true" class="icon-delete od-close-border"></span>
+					<span class="mobile-accessibleHidden">Close</span>
+				</a>
+			</div>
+			<h2 id="titleDialog" class="od-cta-heading">FAQs</h2>
+
+			<div class="od-overlay-cta-content" data-overlay-content-container="val">
+				<div data-overlay-content="val" tabindex="0" aria-label="FAQ Overlay Content" data-dojo-attach-point="content">
+					
+					<p class="title t14b">How much can I borrow?</p>
+                    
+                 
+                    <p class="t14r">You may use the <a href="/personal/mortgages/home-mortgage-loans/mortgage-tools.html" class="primaryred"><span>Mortgage Calculator</span></a> to understand how much you will be able to borrow. This calculation is for illustration and your reference only.</p>
+
+					<!-- disclaimer wrapper start -->
+					
+					<!-- disclaimer wrapper end -->
+				</div>
+			</div>
+		</div>
+		
+		
+<div class="od-overlay-cta applyonline" data-dojo-type="hdx/dijits/Dialog" role="dialog" aria-labelledby="titleDialog" data-dojo-props="hasFooter : true" id="hdx_dijits_CollapsableContainer_405" data-dojo-attach-point="dialog">
+			<div class="closeButton od-close">
+				<a href="javascript:void(0);" role="button" data-dojo-attach-point="closeDialogButton">
+					<span aria-hidden="true" class="icon-delete od-close-border"></span>
+					<span class="mobile-accessibleHidden">Close</span>
+				</a>
+			</div>
+			<h2 id="titleDialog" class="od-cta-heading">FAQs</h2>
+
+			<div class="od-overlay-cta-content" data-overlay-content-container="val">
+				<div data-overlay-content="val" tabindex="0" aria-label="FAQ Overlay Content" data-dojo-attach-point="content">
+					
+					<p class="title t14b">Do I need to arrange fire insurance for the mortgaged property?</p>
+                    
+                  
+                          <p class="t14r"> Yes, it is your responsibility to arrange fire insurance against fire risk and allied perils. There may be a master policy already in place for your property, please check with your estate's management company to find out more. </p>
+
+					<!-- disclaimer wrapper start -->
+					
+					<!-- disclaimer wrapper end -->
+				</div>
+			</div>
+		</div>
+		
+		
+<div class="od-overlay-cta applyonline" data-dojo-type="hdx/dijits/Dialog" role="dialog" aria-labelledby="titleDialog" data-dojo-props="hasFooter : true" id="hdx_dijits_CollapsableContainer_407" data-dojo-attach-point="dialog">
+			<div class="closeButton od-close">
+				<a href="javascript:void(0);" role="button" data-dojo-attach-point="closeDialogButton">
+					<span aria-hidden="true" class="icon-delete od-close-border"></span>
+					<span class="mobile-accessibleHidden">Close</span>
+				</a>
+			</div>
+			<h2 id="titleDialog" class="od-cta-heading">FAQs</h2>
+
+			<div class="od-overlay-cta-content" data-overlay-content-container="val">
+				<div data-overlay-content="val" tabindex="0" aria-label="FAQ Overlay Content" data-dojo-attach-point="content">
+					<p class="title t14b">What are the options for repaying my mortgage?</p>
+                    
+                  
+                          <p class="t14r"> Mortgage repayment options include:<br>
+                          
+                          </p>
+<ul class="bulletlist">
+                            <li> monthly or fortnightly repayment frequency </li>
+                            <li> fixed instalment amount or fixed loan tenure</li>
+                            <li> straight-line or step-up repayments</li>
+                          </ul>
+                          <br>
+                          Contact your HSBC branch for details of the options available for your mortgage.
+                          
+
+					<!-- disclaimer wrapper start -->
+					
+					<!-- disclaimer wrapper end -->
+				</div>
+			</div>
+		</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+					</div>
+					<div class="wpthemeClear"></div>
+				</div>
+			</div>
+		</div>
+		<div class="wptheme1Col">
+			<div class="component-container wpthemeCol wpthemeCol12of12 ibmDndColumn wpthemeFull id-Z7_P2DC1I80KOJ080A2QFK0A90Q05" name="_DISCLAIMER_FW_COL"></div>
+</div>
+	</div>
+	<div class="wptheme1Col">
+		<div class="component-container wpthemeCol wpthemeCol12of12 ibmDndColumn wpthemeFull id-Z7_P2DC1I80KOJ080A2QFK0A90Q07" name="_FOOTER_FW_COL"><div class="component-control id-Z7_P2DC1I80K0DA50A2M436AJ1NK4">
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		    
+		
+	
+	
+	
+	       		           
+    
+			     	
+    
+    
+
+
+    
+    
+	
+	
+		
+			
+			<div data-dojo-type="hdx/bijits/footer/footerDesktop/FooterDesktop">
+	<footer class="grid12col">
+		<div class="footer-top showondesktop">
+			<div class="mainwrapper no-pad">
+				<div class="row no-pad">
+					<div class="l-three columns">
+						<div class="footer-box">
+							<div class="footer-img showondesktop no-margin">
+								<span class="icon-phone icon-phone-footer"> <!-- --></span>
+							</div>
+							<div class="footer-desktop-box">
+								<h2>Contact HSBC</h2>
+								<div>
+									<a href="/personal/contact-us.html" data-dojo-attach-point="callUs"><span class="accessibleHidden">click to write, call or chat</span><span>Write, call or send<br>a message</span> <em class="icon-footer-right-arrow"> <!-- --></em>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="l-three columns">
+						<div class="footer-box">
+							<span class="footer-img showondesktop"> <span class="icon-location icon-location-footer"> <!-- --></span>
+							</span>
+							<div class="footer-desktop-box">
+								<h2>Find a branch</h2>
+								<div>
+									<a href="/personal/contact-us/branch-locator.html" data-dojo-attach-point="findUs">
+										<span class="accessibleHidden">click to find branch</span><span>And your nearest Express<br>Banking location</span> <em class="icon-footer-right-arrow"> <!-- --></em>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="l-three columns">
+						<div class="footer-box">
+							<span class="footer-img showondesktop"> <span class="icon-circle-info icon-circle-info-footer"> <!-- --></span>
+							</span>
+							<div class="footer-desktop-box">
+								<h2>
+									Frequently Asked<br>Questions
+								</h2>
+								<div>
+									<a href="/personal/faqs.html" data-dojo-attach-point="helpSupport"><span class="accessibleHidden">click to FAQ, fees, charges and policies</span><span>See FAQs on our products<br>and services</span> <em class="icon-footer-right-arrow"> <!-- --></em>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<div class="l-three columns">
+						<div class="footer-box noborder">
+							<div class="footer-img showondesktop">
+										<span class="icon-global icon-list-footer"> <!-- --></span>
+							</div>
+							<div class="footer-desktop-box">
+								<h2>About HSBC</h2>
+								<div>
+									<a href="http://www.about.hsbc.com.hk/" data-dojo-attach-point="feesCharges"><span class="accessibleHidden">click to know about HSBC</span><span>Careers, media, investor and <br>corporate information</span> <em class="icon-footer-right-arrow"> <!-- --></em>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-bottom" data-main-component="vtab">
+			<div class="mainwrapper">
+				<div class="row no-pad">
+					<div class="left-footer-tabs showondesktop">
+						<a href="/personal/legal-information.html?component=vtab&amp;value=Privacyandsecurity" data-dojo-attach-point="privacySecurity" data-click-module="Privacyandsecurity"><span>Privacy and Security</span>
+						</a>
+					</div>
+					<div class="left-footer-tabs showondesktop">
+						<a href="/personal/legal-information.html?component=vtab&amp;value=Termsofuse" data-dojo-attach-point="termsOfUse" data-target="tab2" data-link="tab2" data-click-module="Termsofuse"> <span>Terms of Use</span>
+						</a>
+					</div>
+					<div class="left-footer-tabs showondesktop">
+						<a href="/personal/legal-information.html?component=vtab&amp;value=Hyperlinkandcookiepolicy" data-dojo-attach-point="hyperlink" data-click-module="Hyperlinkandcookiepolicy">
+							<span>Hyperlink Policy</span>
+						</a>
+					</div>
+					<div class="left-footer-tabs showondesktop">
+						<a href="http://www.hsbc.com/internet-banking/online-security"> <span>Online Security</span>
+						</a>
+					</div>
+					<div class="copyright copyrighttext">
+						<span>© Copyright. The Hongkong and Shanghai Banking</span> <span>Corporation
+							Limited 2002-2015. All rights reserved</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</footer>
+</div>
+		
+		
+	
+
+    
+    	
+
+
+
+
+
+    	
+
+
+
+
+
+
+    	
+    
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+</div></div>
+</div>
+	<div data-dojo-type="hdx/dijits/CollapsibleMobileHeaders"></div>
+</div>
+<script src="/clientapp/hdx/js/hsbc/client_utility.js"></script>
+
+<script src="/clientapp/hdx/js/hsbc/config.js"></script>
+<script src="/clientapp/node_modules/dojo/dojo.js"></script>
+<script src="/clientapp/hdx/js/hsbc/script.js"></script>
+<noscript>
+<img alt="dcsimg" id="dcsimg" width="1" height="1" src="//www1.member-hsbc-group.com/dcsur62uf00000s5nnzq4hvrl_6i5x/njs.gif?dcsuri=/nojavascript&amp;WT.js=No&amp;WT.tv=10.4.7&amp;dcssip=hsbc.com.hk">
+</noscript>
+<script src="/clientapp/js/bottom_section.js"></script>
+</body>
+</html>
